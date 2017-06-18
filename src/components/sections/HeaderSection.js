@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Grid, Col, Row } from 'react-bootstrap';
 
-export const HeaderSection =  class extends Component {
-  render() {
+export const HeaderSection = () => {
+
     return (
     <Grid fluid={true} className="App-header">
         <Row>
@@ -14,5 +14,5 @@ export const HeaderSection =  class extends Component {
         </Row>
     </Grid>
 )
-  }
+
 }

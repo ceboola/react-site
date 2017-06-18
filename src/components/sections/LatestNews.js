@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Grid, Col, Row, Well } from 'react-bootstrap';
 import { Reddit } from './Reddit';
 
@@ -12,9 +12,7 @@ const randomSubreddit = () => {
   return r;
 }
 
-export class LatestNews extends Component {
-
-  render() {
+export const LatestNews = () => {
 
     return (
 <section id="blog">
@@ -84,5 +82,5 @@ export class LatestNews extends Component {
       </Grid>
 </section>
 )
-  }
+
 }

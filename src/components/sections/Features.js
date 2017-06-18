@@ -9,7 +9,7 @@ const featuresData = [
   { title: 'Stability', content: 'Gives you huge stability with thousands of components', name: 'diamond'}
 ];
 
-const FeaturesItem = props =>
+const FeaturesItem = (props) =>
   <Col className="features-content" xs={6} sm={3} md={3} lg={3}>
     <FontAwesome name={props.name} size='4x' />
     <h3 className="h4">{props.title}</h3>
@@ -17,9 +17,7 @@ const FeaturesItem = props =>
   </Col>;
 
 
-export class Features extends Component {
-
-  render() {
+export const Features = () => {
 
     return (
 <section id="features">
@@ -36,5 +34,5 @@ export class Features extends Component {
   </Grid>
 </section>
 )
-  }
+
 }

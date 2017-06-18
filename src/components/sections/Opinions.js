@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Grid, Col, Row } from 'react-bootstrap';
 import Slider from 'react-slick';
 
@@ -13,9 +13,7 @@ const settings = {
   slidesToScroll: 1
 };
 
-export class Opinions extends Component {
-
-  render() {
+export const Opinions = () => {
 
     return (
       <Grid className="opinions" fluid={true}>
@@ -64,5 +62,5 @@ export class Opinions extends Component {
       </Grid>
 
 )
-  }
+
 }

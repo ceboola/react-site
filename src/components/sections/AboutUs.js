@@ -1,10 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Grid, Col, Row, Well } from 'react-bootstrap';
 import konick from './images/konick.svg';
 
-export const AboutUs = class extends Component {
+export const AboutUs = () => {
 
-  render() {
     return (
 <section id="aboutus">
   <Grid fluid={true}>
@@ -65,5 +64,5 @@ export const AboutUs = class extends Component {
   </Grid>
 </section>
 )
-  }
+
 }

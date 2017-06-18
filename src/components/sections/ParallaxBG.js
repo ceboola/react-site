@@ -1,16 +1,15 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Grid, Col, Row, Image, Button } from 'react-bootstrap';
 import { Parallax, Background } from 'react-parallax';
 import telephone2 from './images/telephone2.jpg';
 
-export class ParallaxBG extends Component {
-
-  render() {
+export const ParallaxBG = () => {
 
     return (
       <Grid className="parallax-container" fluid={true}>
         <Row>
           <Col xs={12} md={12} lg={12}>
+            
             <Parallax strength={200}>
       		    <Background>
       		        <Image src={telephone2} alt="" responsive />
@@ -27,5 +26,5 @@ export class ParallaxBG extends Component {
       </Grid>
 
 )
-  }
+
 }

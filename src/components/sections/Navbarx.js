@@ -1,5 +1,3 @@
-/* global $ */
-
 import React, { Component } from 'react';
 import { Navbar, Nav, NavItem, /*NavDropdown, MenuItem*/ } from 'react-bootstrap';
 import logo from './images/logo.svg';
@@ -95,7 +93,7 @@ export class Navbarx extends Component {
   <Nav className="default">
 
 
-        <NavItem eventKey={1} onSelect={this.closeNav}>
+        <NavItem tabIndex={-1} eventKey={1} onSelect={this.closeNav}>
           <Link href="#aboutus" to="aboutus"
              active={'aboutus-active'}
              component={'a'}
@@ -107,7 +105,7 @@ export class Navbarx extends Component {
          </NavItem>
 
 
-        <NavItem eventKey={2} onSelect={this.closeNav}>
+        <NavItem tabIndex={-1} eventKey={2} onSelect={this.closeNav}>
           <Link href="#features" to="features"
             active={'features-active'}
             component={'a'}
@@ -118,7 +116,7 @@ export class Navbarx extends Component {
           </Link>
         </NavItem>
 
-      <NavItem eventKey={3} onSelect={this.closeNav}>
+      <NavItem tabIndex={-1} eventKey={3} onSelect={this.closeNav}>
         <Link href="#devs" to="devs"
            active={'devs-active'}
            component={'a'}
@@ -129,7 +127,7 @@ export class Navbarx extends Component {
          </Link>
        </NavItem>
 
-      <NavItem eventKey={4} onSelect={this.closeNav}>
+      <NavItem tabIndex={-1} eventKey={4} onSelect={this.closeNav}>
         <Link href="#blog" to="blog"
            active={'blog-active'}
            component={'a'}

@@ -1,10 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Grid, Col, Row } from 'react-bootstrap';
 import { Github } from './Github';
 
-export class People extends Component {
-
-  render() {
+export const People = () => {
 
     return (
 <section id="devs">
@@ -38,5 +36,5 @@ export class People extends Component {
       </Grid>
 </section>
 )
-  }
+
 }

@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Grid, Col, Row } from 'react-bootstrap';
 
-export class Footer extends Component {
-  render() {
+export const Footer = () => {
+  
     return (
 <footer>
   <Grid fluid={true}>
@@ -14,5 +14,5 @@ export class Footer extends Component {
   </Grid>
 </footer>
 )
-  }
+
 }

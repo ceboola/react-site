@@ -1,14 +1,12 @@
-
-
-import React, { Component } from 'react';
+import React from 'react';
 import { Grid, Col, Row, Button } from 'react-bootstrap';
 import ReactPlayer from 'react-player';
 
-export const VideoClip = class extends Component {
-  render() {
+export const VideoClip = () => {
+
     return (
 
-  <Grid className="video" fluid={true}>
+<Grid className="video" fluid={true}>
       <Row className="video-player">
         <Col className="video-content" xs={12} md={6} lg={6}>
           <h2 className="h3">How into?</h2>
@@ -32,8 +30,7 @@ export const VideoClip = class extends Component {
           </div>
         </Col>
       </Row>
-  </Grid>
-
+</Grid>
 )
-  }
+
 }

@@ -1,9 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Grid, Col, Row, Button } from 'react-bootstrap';
 
-export class Ready extends Component {
-
-  render() {
+export const Ready = () => {
 
     return (
       <Grid className="ready" fluid={true}>
@@ -18,7 +16,7 @@ export class Ready extends Component {
       </Grid>
 
 )
-  }
+
 }
 
 Button.propTypes = {

@@ -142,9 +142,38 @@ export class Navbarx extends Component {
   </Nav>
 
   <Nav pullRight>
-    <NavItem href="https://facebook.com" target="_blank" eventKey={1} aria-label="Facebook"><span className='fa-stack fa-lg'><FontAwesome name='square-o' stack='2x'/><FontAwesome name='facebook' alt="" stack='1x' /></span></NavItem>
-    <NavItem href="https://twitter.com" target="_blank" eventKey={2} aria-label="Twitter"><span className='fa-stack fa-lg'><FontAwesome name='square-o' stack='2x'/><FontAwesome name='twitter' stack='1x' /></span></NavItem>
-    <NavItem href="https://youtube.com" target="_blank" eventKey={3} aria-label="Youtube"><span className='fa-stack fa-lg'><FontAwesome name='square-o' stack='2x'/><FontAwesome name='youtube' stack='1x' /></span></NavItem>
+    <NavItem
+      href="https://facebook.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      eventKey={1}
+      aria-label="Facebook">
+        <span className='fa-stack fa-lg'>
+          <FontAwesome name='square-o' stack='2x'/><FontAwesome name='facebook' alt="" stack='1x' />
+        </span>
+     </NavItem>
+
+    <NavItem
+      href="https://twitter.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      eventKey={2}
+      aria-label="Twitter">
+        <span className='fa-stack fa-lg'>
+          <FontAwesome name='square-o' stack='2x'/><FontAwesome name='twitter' stack='1x' />
+        </span>
+    </NavItem>
+
+    <NavItem
+      href="https://youtube.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      eventKey={3}
+      aria-label="Youtube">
+        <span className='fa-stack fa-lg'>
+          <FontAwesome name='square-o' stack='2x'/><FontAwesome name='youtube' stack='1x' />
+        </span>
+    </NavItem>
   </Nav>
 </Navbar.Collapse>
 </Navbar>

@@ -71,7 +71,7 @@ export class Reddit extends Component {
 
     return (
       <div>
-        <a href={this.state.redditData.data.children[this.props.title].data.url} target="_blank">
+        <a href={this.state.redditData.data.children[this.props.title].data.url} target="_blank" rel="noopener noreferrer">
 
 <div className={this.props.imageContainer}>
        {imageUrl && <Image className={this.props.image} src={imageUrl} alt="" responsive />}

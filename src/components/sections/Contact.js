@@ -3,7 +3,7 @@
 import React, { Component } from 'react';
 import { Grid, Col, Row, Well } from 'react-bootstrap';
 import { FormErrors } from './FormErrors';
-
+import $ from 'webpack-zepto'
 
 export class Contact extends Component {
 

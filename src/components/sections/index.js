@@ -2,7 +2,7 @@ export {Navbarx} from './Navbarx';
 export {AboutUs} from './AboutUs';
 export {HeaderSection} from './HeaderSection';
 export {Footer} from './Footer';
-export {Article} from './Article';
+// export {Article} from './Article';
 export {Features} from './Features';
 export {ParallaxBG} from './ParallaxBG';
 export {VideoClip} from './VideoClip';

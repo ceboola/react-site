@@ -3,7 +3,6 @@
 import React, { Component } from 'react';
 import { Grid, Col, Row, Well } from 'react-bootstrap';
 import { FormErrors } from './FormErrors';
-import zepto from 'npm-zepto';
 
 
 export class Contact extends Component {
